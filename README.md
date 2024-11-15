@@ -33,7 +33,7 @@ Then run the following commands to install and start the server
 ```sh
 cd server
 npm i
-node index.js
+node index
 ```
 
 Then open a new terminal, navigate back to the root folder and run the following commands to install and run the UI application 
@@ -48,6 +48,12 @@ Verify the deployment by navigating to the following address
 
 ```sh
 http://localhost:8080
+```
+
+To run Unit and Integration tests, run the following command in server folder
+
+```sh
+npm test
 ```
 
  ## FAQ
