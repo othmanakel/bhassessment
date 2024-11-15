@@ -13,11 +13,14 @@
 
 ## Installation
 
-First, open your terminal and run the following command to clone the git repository
+First open your terminal and run the following command to clone the git repository
 ```sh
 git clone https://github.com/othmanakel/bhassessment.git
 ```
-
+Then run the following command to navigate to the root folder
+```sh
+cd bhassessment
+```
 Then run the following commands to install and start the server
 ```sh
 cd server
@@ -25,7 +28,7 @@ npm i
 node index.js
 ```
 
-Then open a new terminal, navigate to the root folder and run the following commands to install and run the UI application 
+Then open a new terminal, navigate back to the root folder and run the following commands to install and run the UI application 
 
 ```sh
 cd client
