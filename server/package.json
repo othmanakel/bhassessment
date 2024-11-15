@@ -1,0 +1,30 @@
+{
+  "name": "bhassessment",
+  "version": "1.0.0",
+  "description": "Drone Detection Simulator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/othmanakel/bhassessment.git"
+  },
+  "author": "Othman Akel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/othmanakel/bhassessment/issues"
+  },
+  "homepage": "https://github.com/othmanakel/bhassessment#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.8.1",
+    "pino": "^9.5.0"
+  },
+  "devDependencies": {
+    "pino-pretty": "^13.0.0"
+  }
+}
