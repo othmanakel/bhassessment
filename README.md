@@ -9,7 +9,7 @@
 
 - Simulation of data transmission from drone detector. Messages are posted to the API every 3 seconds
 - API for digesting simulation data and sending data to UI
-- UI with table displaying active detections, count of important metrics, and histograph of specific drone RSSI's
+- UI with table displaying active detections, count of important metrics, and histogram of specific drone RSSI's
 
 ## Installation
 
