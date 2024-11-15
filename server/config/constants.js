@@ -1,4 +1,5 @@
 const MONGO_URI = 'mongodb+srv://othmanakel112:ungaunga97@bhcluster.nt6iq.mongodb.net/bhassessment?retryWrites=true&w=majority&appName=BHCluster'
+const MONGO_TEST_URI = 'mongodb+srv://othmanakel112:ungaunga97@bhcluster.nt6iq.mongodb.net/bhassessmenttest?retryWrites=true&w=majority&appName=BHCluster'
 
 const VALIDATION_CONSTANTS = {
     ID_LENGTH : 8,
@@ -18,4 +19,4 @@ const CLASSIFICATION_CONSTANTS = {
     CLASSIFICATION_LIGHT: 'Lightbridge',
 }
 
-module.exports = { MONGO_URI, VALIDATION_CONSTANTS, BAND_CONSTANTS, CLASSIFICATION_CONSTANTS }
+module.exports = { MONGO_URI, MONGO_TEST_URI, VALIDATION_CONSTANTS, BAND_CONSTANTS, CLASSIFICATION_CONSTANTS }

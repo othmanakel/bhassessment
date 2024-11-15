@@ -175,7 +175,7 @@ function buildChartData(rssiValues) {
         labels: labelData,
         datasets: [
             {
-                label: rssiValues && rssiValues.length > 0 ? 'Drone RSSI for Drone: ' + rssiValues[0].drone_id  : 'Drone RSSI',
+                label: rssiValues && rssiValues.length > 0 ? 'Drone RSSI for Drone [' + rssiValues[0].drone_id + ']'  : 'Drone RSSI',
                 data: rssiData,
                 fill: false,
                 backgroundColor: documentStyle.getPropertyValue('--p-primary-200'),

@@ -8,6 +8,7 @@ module.exports = {
 }
 
 function validateId(id) {
+    if (!id) return false;
     let validLength = id.length == VALIDATION_CONSTANTS.ID_LENGTH
     let validCharacters = true
     for (let char of id) {

@@ -35,7 +35,7 @@ app.use((err, req, res, next) => {
     let status = err.status || 500
     let message = err.message
     return res.status(status).json({ message: message })
-  })  
+})  
 
 app.listen(port, () => logger.info(
     `Listening on port ${port}!`
